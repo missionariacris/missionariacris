@@ -18,7 +18,7 @@ $(document).ready(function(){
         if(scrollPosition<= 0){
             header.css('box-shadow', 'none');
         } else{
-            header.css();
+            header.css('box-shadow', 'none');
         }
 
         sections.each(function(i){
