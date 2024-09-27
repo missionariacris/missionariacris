@@ -1,0 +1,79 @@
+#beneficiente{
+    display: flex;
+    background-color: #976dff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 8%;
+ margin-top: 3%;
+ 
+   }
+
+#bene-geral{
+    gap: 35px;
+    display: flex;
+    align-items: center;    
+    width: 60%;
+}
+
+#bene-banner{
+    display: flex;
+    width: 1%;
+    flex-direction: column;
+ margin-top: 3%;
+}
+
+#bene-banner img{
+    max-width:350px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    border-radius: 10% 10% 10% 10%;
+}
+
+
+#bene-geral .bene-title{
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+  
+}
+
+#bene-geral .descrip-bene{
+    font-size: 1rem;
+    text-align: justify;
+    text-indent: 90px;
+   
+}
+
+@media screen and (max-width: 1170px) {
+    #beneficiente{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+    #bene-geral{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #bene-banner{
+        display: none;
+    }
+       
+    
+    #bene-geral .bene-title{
+        text-align: center;
+        font-size: 3rem;
+        width: 100%;
+        align-items: center;
+      
+    }
+    
+    #bene-geral .descrip-bene{
+        font-size: 1rem;
+        text-align: justify;
+        text-indent: 90px;
+       
+    }
+    }

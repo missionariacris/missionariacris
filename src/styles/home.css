@@ -1,0 +1,96 @@
+#home{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+   }
+
+   .shape {
+padding: 28px 8%;
+    background-color: #ffffff;
+    width: 50%;
+    height: 85% ;
+   position: absolute;
+    border-radius: 40% 0% 0% 40%;
+    top: 0;
+    right: 0%;
+    margin-top: 5%;
+    z-index: 1;
+
+
+}
+
+ 
+
+#cta{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 3%;
+    
+}
+
+#cta .sobre{
+    font-size: 3.5rem;
+    color: #fbcc19;
+    text-align:right;
+  
+}
+
+#cta .description{
+    font-size: 1rem;
+    text-align: justify;
+    text-indent: 90px;
+   
+}
+
+
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    width: 70%;
+   z-index: 2;
+}
+
+#banner img{
+    max-width:550px;
+    max-height:50;
+    width: auto;
+    height: auto;
+   
+}
+
+
+
+
+@media screen and (max-width: 1170px) {
+   #home{
+    min-height: 100%;
+    padding-top: 0px;
+
+   }
+  #banner img {
+    display: none;
+  }
+
+  #banner {
+    display: none;
+  }
+
+  #home .shape{
+    display: none;
+  }
+
+  #cta{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+  }
+      }
+  
+   
