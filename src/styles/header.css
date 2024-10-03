@@ -83,6 +83,7 @@ top: 70px;
     }
     .wave-img {
         width: 100%;
+        height: auto;
         position: absolute;
    top: 130px;
 
