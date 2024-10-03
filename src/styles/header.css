@@ -11,25 +11,6 @@ header {
 
 }
 
-
-.social-media-buttons{
-    display: flex ;
-    gap: 148;
-    position: relative;
-    top: -15px;
-}
-
-.social-media-buttons a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 40px;
-    font-size: 1.5rem;
-    color: #fbcc19;
-    text-decoration: none;
-}
-
 .wave-container {
  width: 100%;
  height: auto;
@@ -100,11 +81,6 @@ top: 70px;
     #nav_list {
         display: none;
     }
-
-    header{
-        background-color: #ffffff;
-    }
-   
     .wave-img {
         width: 200%;
         position: absolute;
